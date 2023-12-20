@@ -1,0 +1,10 @@
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+------------------------
+normal->forward direction
+reverse->backward direction
+alternate-> first forward then backward
+alternate-reverse->first backward then forward

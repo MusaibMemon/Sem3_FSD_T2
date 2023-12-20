@@ -1,0 +1,40 @@
+body{margin: 100px;}
+
+.parent{
+    width: 500px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.c1{
+    background-color: powderblue;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    z-index: 20;
+}
+
+.c2{
+    background-color: blue;
+    position: relative;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    z-index: 28;
+}
+
+.c3{
+    background-color: pink;
+    position: static;
+    height: 100px;
+}
+
+.c4{
+    background-color: aqua;
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    z-index: 10;
+}

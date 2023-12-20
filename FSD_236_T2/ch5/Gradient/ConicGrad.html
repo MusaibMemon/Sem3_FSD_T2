@@ -1,0 +1,24 @@
+<!-- Gradient: To display smooth transition betn or more 
+3. Conic  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conic Gradient</title>
+    <style>
+        div{height: 200px; width: 200px; border: 1px solid black; position: relative; margin: 10px;}
+        .p1{background-image: conic-gradient(yellow,green,lightblue);} /* colore */
+        .p2{background-image: conic-gradient(red 45deg,yellow 90deg,blue  210deg);} /* direction of colors */
+        .p3{background-image: conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 270deg, blue 270deg);}
+        .p4{background-image: conic-gradient(from 90deg,red,green,blue);}
+    </style>
+</head>
+<body>
+    <div class="p1">Default Conic Gradient</div>
+    <div class="p2">Degree</div>
+    <div class="p3">From-To Degree</div>
+    <div class="p4">from 90 deg</div>
+</body>
+</html>
